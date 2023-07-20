@@ -10,9 +10,9 @@ const App = () => {
 
     
      {/* console.log("hey") */}
-        <h1> Enter Your Name </h1>
+        <h2> Enter Your Name :</h2>
       <input type="text"  onChange={(e)=>{setName(event.target.value)}}/>
-      <p> {name}</p> 
+      <p>Hello {name}!</p> 
     </div>
   )
 }
