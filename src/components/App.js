@@ -7,10 +7,12 @@ const App = () => {
 
   return (
     <div>
-       
+
+    
+     {/* console.log("hey") */}
         <h1> Enter Your Name </h1>
-      <input type="text"  onChange={setName(event.target.value)}/>
-      <p> {name}</p>
+      <input type="text"  onChange={(e)=>{setName(event.target.value)}}/>
+      <p> {name}</p> 
     </div>
   )
 }
